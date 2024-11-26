@@ -1,0 +1,30 @@
+.infinite_scroll {
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.infinite_scroll .carouselTicker__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 60px;
+}
+
+.infinite_scroll .carouselTicker__item {
+    text-align: center;
+}
+
+.infinite_scroll .carouselTicker__item img {
+    display: block;
+    height: 60px;
+    width: auto;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .infinite_scroll .carouselTicker__item img {
+        height: 50px;
+    }
+}

@@ -1,0 +1,568 @@
+.mbsc-ios.mbsc-datepicker-inline {
+    border: none !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    color: rgba(104, 104, 104, 1) !important;
+    background: rgba(255, 255, 255, 1) !important;
+    height: auto;
+}
+
+.mbsc-ios.mbsc-datepicker .mbsc-calendar,
+.mbsc-ios.mbsc-datepicker .mbsc-calendar-cell,
+.mbsc-ios.mbsc-datepicker .mbsc-calendar-slide {
+    background: rgba(255, 255, 255, 1);
+}
+
+
+/* Calendar Header */
+.mbsc-ios.mbsc-calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.mbsc-ios.mbsc-calendar-controls {
+    width: 45%;
+    position: relative;
+}
+
+.mbsc-ios.mbsc-calendar-button.mbsc-button {
+    background: white;
+    color: rgba(245, 94, 49, 1);
+}
+
+.mbsc-icon>svg {
+    fill: rgba(62, 46, 77, 1);
+}
+
+.mbsc-calendar-button-prev,
+.mbsc-calendar-button-next,
+.mbsc-calendar-title-wrapper {
+    background: white !important;
+    position: absolute;
+}
+
+.mbsc-calendar-button-prev {
+    left: 0;
+}
+
+.mbsc-calendar-button-next {
+    right: 0;
+}
+
+.mbsc-calendar-title-wrapper {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mbsc-calendar-title-wrapper span {
+    color: rgba(245, 94, 49, 1);
+    font: 600 24px/29.26px "Montserrat", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Calendar Header */
+
+.mbsc-ios.mbsc-calendar-week-day {
+    font: 600 20px/24px "Montserrat", sans-serif;
+    text-align: center;
+    border: none;
+    color: rgba(51, 51, 51, 1);
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.mbsc-ios.mbsc-datepicker .mbsc-calendar-cell {
+    border: none;
+}
+
+.mbsc-ios.mbsc-calendar-day-text {
+    background-color: transparent;
+    color: rgba(104, 104, 104, 1);
+    line-height: 0;
+    font: 600 16px/19px "Montserrat", sans-serif !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+.mbsc-ios.mbsc-calendar-day-text[aria-label^="Cегодня"] {
+    background-color: rgba(245, 94, 49, 1) !important;
+    color: white !important;
+}
+
+.mbsc-calendar-day-inner {
+    margin-bottom: 20px;
+}
+
+.mbsc-ios.mbsc-datepicker .mbsc-calendar-cell:hover .mbsc-ios.mbsc-calendar-day-text:not([aria-label^="Today"]) {
+    background: rgba(243, 243, 243, 1);
+    color: rgba(51, 51, 51, 1);
+}
+
+.mbsc-ios.mbsc-selected .mbsc-calendar-cell-text {
+    background: rgb(254, 239, 235) !important;
+    border-color: rgb(254, 239, 235) !important;
+    color: rgba(245, 94, 49, 1) !important;
+}
+
+.mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.mbsc-ios.mbsc-calendar-day-text {
+    border: none;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.mbsc-ios.mbsc-range-day:after {
+    background: rgb(254, 239, 235) !important;
+    border-color: rgb(254, 239, 235) !important;
+    top: 0;
+    height: 50px;
+}
+
+.mbsc-ios.mbsc-range-hover:before {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    border-top: 3px dashed rgb(254, 239, 235) !important;
+    border-bottom: 3px dashed rgb(254, 239, 235) !important;
+}
+
+
+.mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 600 16px/19px "Montserrat", sans-serif;
+    margin-left: -30px;
+}
+
+.mbsc-calendar-year:hover .mbsc-ios.mbsc-calendar-cell-text {
+    background: rgba(243, 243, 243, 1);
+    color: rgba(51, 51, 51, 1);
+}
+
+
+
+.mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 600 16px/19px "Montserrat", sans-serif;
+    margin-left: -30px;
+}
+
+.mbsc-calendar-month:hover .mbsc-ios.mbsc-calendar-cell-text {
+    background: rgba(243, 243, 243, 1);
+    color: rgba(51, 51, 51, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .mbsc-ios.mbsc-calendar-controls {
+        width: 50%;
+    }
+
+    .mbsc-calendar-title-wrapper span {
+        font: 600 24px/29.26px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        font: 600 16px/19px "Montserrat", sans-serif !important;
+    }
+
+    .mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .mbsc-ios.mbsc-range-day:after {
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-range-hover:before {
+        height: 50px;
+        border-top: 3px dashed rgb(254, 239, 235) !important;
+        border-bottom: 3px dashed rgb(254, 239, 235) !important;
+    }
+
+    .mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+
+    .mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .mbsc-ios.mbsc-calendar-controls {
+        width: 60%;
+    }
+
+    .mbsc-calendar-title-wrapper span {
+        font: 600 24px/29.26px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        font: 600 16px/19px "Montserrat", sans-serif !important;
+    }
+
+    .mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .mbsc-ios.mbsc-range-day:after {
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-range-hover:before {
+        height: 50px;
+        border-top: 3px dashed rgb(254, 239, 235) !important;
+        border-bottom: 3px dashed rgb(254, 239, 235) !important;
+    }
+
+    .mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+
+    .mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .mbsc-ios.mbsc-calendar-controls {
+        width: 50%;
+    }
+
+    .mbsc-calendar-title-wrapper span {
+        font: 600 24px/29.26px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        font: 600 16px/19px "Montserrat", sans-serif !important;
+    }
+
+    .mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .mbsc-ios.mbsc-range-day:after {
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-range-hover:before {
+        height: 50px;
+        border-top: 3px dashed rgb(254, 239, 235) !important;
+        border-bottom: 3px dashed rgb(254, 239, 235) !important;
+    }
+
+    .mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+
+    .mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    .mbsc-ios.mbsc-calendar-controls {
+        width: 80%;
+    }
+
+    .mbsc-calendar-title-wrapper span {
+        font: 600 24px/29.26px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        font: 600 16px/19px "Montserrat", sans-serif !important;
+    }
+
+    .mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .mbsc-ios.mbsc-range-day:after {
+        height: 50px;
+    }
+
+    .mbsc-ios.mbsc-range-hover:before {
+        height: 50px;
+        border-top: 3px dashed rgb(254, 239, 235) !important;
+        border-bottom: 3px dashed rgb(254, 239, 235) !important;
+    }
+
+    .mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+
+    .mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 100px;
+        height: 60px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 575.98px) {
+    .mbsc-ios.mbsc-calendar-controls {
+        width: 95%;
+    }
+
+    .mbsc-ios.mbsc-calendar-header {
+        margin-bottom: 20px;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+        text-align: center;
+        border: none;
+        color: rgba(51, 51, 51, 1);
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .mbsc-calendar-title-wrapper span {
+        font: 600 24px/29.26px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        font: 600 16px/19px "Montserrat", sans-serif !important;
+    }
+
+    .mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+        width: 45px;
+        height: 45px;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    .mbsc-ios.mbsc-range-day:after {
+        height: 45px;
+    }
+
+    .mbsc-ios.mbsc-range-hover:before {
+        height: 45px;
+        border-top: 3px dashed rgb(254, 239, 235) !important;
+        border-bottom: 3px dashed rgb(254, 239, 235) !important;
+    }
+
+    .mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 80px;
+        height: 50px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+
+    .mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 80px;
+        height: 50px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 439.98px) {
+    .mbsc-ios.mbsc-calendar-controls {
+        width: 95%;
+    }
+
+    .mbsc-ios.mbsc-calendar-header {
+        margin-bottom: 20px;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+        margin-bottom: 25px;
+    }
+
+    .mbsc-calendar-title-wrapper span {
+        font: 600 24px/29.26px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        font: 600 16px/19px "Montserrat", sans-serif !important;
+    }
+
+    .mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .mbsc-ios.mbsc-range-day:after {
+        height: 40px;
+    }
+
+    .mbsc-ios.mbsc-range-hover:before {
+        height: 40px;
+        border-top: 3px dashed rgb(254, 239, 235) !important;
+        border-bottom: 3px dashed rgb(254, 239, 235) !important;
+    }
+
+    .mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 80px;
+        height: 50px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+
+    .mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 80px;
+        height: 50px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+    }
+}
+
+
+@media only screen and (max-width: 379.98px) {
+    .mbsc-ios.mbsc-calendar-controls {
+        width: 95%;
+    }
+
+    .mbsc-ios.mbsc-calendar-header {
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+        margin-bottom: 25px;
+    }
+
+    .mbsc-calendar-title-wrapper span {
+        font: 600 18px/22px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-week-day {
+        font: 600 20px/24px "Montserrat", sans-serif;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        font: 600 16px/19px "Montserrat", sans-serif !important;
+    }
+
+    .mbsc-ios.mbsc-datepicker .mbsc-calendar-cell-inner {
+        width: 33px;
+        height: 33px;
+    }
+
+    .mbsc-ios.mbsc-calendar-day-text {
+        width: 33px !important;
+        height: 33px !important;
+    }
+
+    .mbsc-ios.mbsc-range-day:after {
+        height: 33px;
+    }
+
+    .mbsc-ios.mbsc-range-hover:before {
+        height: 33px;
+        border-top: 3px dashed rgb(254, 239, 235) !important;
+        border-bottom: 3px dashed rgb(254, 239, 235) !important;
+    }
+
+    .mbsc-calendar-year .mbsc-calendar-year-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 70px;
+        height: 30px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+        margin-left: -20px;
+    }
+
+    .mbsc-calendar-month .mbsc-calendar-month-inner .mbsc-ios.mbsc-calendar-cell-text {
+        width: 70px;
+        height: 30px;
+        font: 600 16px/19px "Montserrat", sans-serif;
+        margin-left: -20px;
+    }
+}

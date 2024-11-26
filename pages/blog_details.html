@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GranitAS</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/images/favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/favicon/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="../assets/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/vendor/fontawesome/css/fontawesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="../assets/vendor/swiper/swiper-bundle.min.css">
+    <!-- MobiScroll CSS -->
+    <link rel="stylesheet" href="../assets/vendor/mobiscroll/mobiscroll.javascript.min.css">
+    <link rel="stylesheet" href="../assets/vendor/mobiscroll/custom.style.css">
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="../assets/vendor/fancybox/fancybox.umd.css">
+    <link rel="stylesheet" href="../assets/vendor/fancybox/fancybox.css">
+    <!-- CarouselTicker CSS -->
+    <link rel="stylesheet" href="../assets/vendor/carouselTicker/carouselTicker.css">
+    <!-- Style CSS -->
+    <!-- <link rel="stylesheet" href="../assets/css/reset.css"> -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header_top d-none d-lg-block">
+            <div class="container">
+                <div class="row justify-content-end m-0">
+                    <div class="col header_top_settings">
+                        <div class="language">
+                            <div class="dropdown_button">
+                                <div class="svg"><img src="../assets/images/svg/language.svg" alt=""></div>
+                                <div class="text">Русский</div>
+                            </div>
+                            <div class="dropdown_item">
+                                <ul>
+                                    <li><a href="">азербайджанский</a></li>
+                                    <li><a href="">английский</a></li>
+                                    <li><a href="" class="active">Русский</a></li>
+                                    <li><a href="">турецкий</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search_bar_wrapper">
+                            <form action="" class="search_bar">
+                                <input type="search" placeholder="Поиск" class="search_input">
+                                <div class="search_button">
+                                    <i class="fa-solid fa-magnifying-glass search_loupe"></i>
+                                    <i class="fa-solid fa-xmark search_remove"></i>
+                                </div>
+                            </form>
+                         </div>
+                        <div class="sign_buttons">
+                            <button class="login">Войти</button>
+                            <button class="register registration">Регистрация</button>
+                            <button class="register">Вход для агенств</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_bottom">
+            <div class="container">
+                <div class="row align-items-center align-items-lg-end m-0">
+                    <div class="col-6 col-lg-3 header_bottom_logo"><a href="../index.html"><img
+                                src="../assets/images/svg/Granit_Logo.svg" alt=""></a></div>
+                    <nav class="col-6 col-lg-9 d-none d-lg-block header_bottom_nav">
+                        <ul>
+                            <li><a href="../index.html">О нас</a></li>
+                            <li><a href="tour.html">Туры</a></li>
+                            <li><a href="excursion.html">Экскурсии</a></li>
+                            <li><a href="transfer.html">Трансферы</a></li>
+                            <li><a href="mice_services.html">MICE</a></li>
+                            <li><a href="blog.html" class="active">Путеводитель</a></li>
+                            <li><a href="contact.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="col-6 d-flex d-lg-none align-items-center justify-content-end">
+                        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+
+    <main>
+        <!-- Breadcrumbs -->
+        <section class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs_wrapper">
+                    <a href="../index.html">Главная</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="blog.html">Блог</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">Празднование винного фестиваля в Шамахе</a>
+                </div>
+            </div>
+        </section>
+        <!-- Breadcrumbs -->
+
+
+        <!-- Blog Details -->
+        <section class="blog_details">
+            <div class="container">
+                <div class="row blog_details_wrapper">
+                    <div class="col-12 col-lg-8 main_blog">
+                        <div class="picture" data-fancybox="gallery" data-src="../assets/images/blog/main_blog.png"><img src="../assets/images/blog/main_blog.png" alt=""></div>
+                        <div class="title">Празднование винного фестиваля в Шамахе</div>
+                        <div class="date">27 Aug 2022</div>
+                        <div class="text">
+                            <p>Винные традиции Азербайджана насчитывают более 5000 лет, так что можно быть уверенным —
+                                здесь знают толк в виноделии. В последние годы страна становится все более популярной
+                                дестинацией винного туризма, а в 2021 г. Европейский институт культурных маршрутов
+                                признал ее достижения в категории «Лучший трансграничный продукт винного туризма»</p>
+                            <p>В специальных этно-уголках туристы увидят, как работают мастера медного ремесла,
+                                ковроткачества, национального витража шебеке, гончары и другие народные умельцы. На
+                                импровизированных концертных площадках проходят выступления музыкантов и танцоров,
+                                кукольные и театрализованные представления, а шуточные викторины и веселые конкурсы
+                                поднимут настроение и взрослым, и детям.</p>
+                            <p>В специальных этно-уголках туристы увидят, как работают мастера медного ремесла,
+                                ковроткачества, национального витража шебеке, гончары и другие народные умельцы. На
+                                импровизированных концертных площадках проходят выступления музыкантов и танцоров,
+                                кукольные и театрализованные представления, а шуточные викторины и веселые конкурсы
+                                поднимут настроение и взрослым, и детям.</p>
+                            <p>Любители гастрономических изысков могут попробовать разнообразные блюда национальной
+                                кухни, к которым великолепно подойдут вина «Мейсари», или выпить стаканчик-другой
+                                душистого азербайджанского чая с традиционными сладостями в уютных беседках у озера.</p>
+                        </div>
+                        <div class="social_link">
+                            <h3>Поделиться по</h3>
+                            <div class="social_links_wrapper">
+                                <div class="svg"><a href=""><img src="../assets/images/svg/facebook3.svg" alt=""></a>
+                                </div>
+                                <div class="svg"><a href=""><img src="../assets/images/svg/instagram3.svg" alt=""></a>
+                                </div>
+                                <div class="svg"><a href=""><img src="../assets/images/svg/twitter3.svg" alt=""></a>
+                                </div>
+                                <div class="svg"><a href=""><img src="../assets/images/svg/pinterest3.svg" alt=""></a>
+                                </div>
+                                <div class="svg"><a href=""><img src="../assets/images/svg/vkontakte3.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 top_blogs">
+                        <h2>Вам также будет интересно</h2>
+                        <div class="all_blogs">
+                            <div class="blog_item">
+                                <div class="picture"><img src="../assets/images/blog/blog5.jpg" alt=""></div>
+                                <div class="title">Советы по организации путешествий</div>
+                                <div class="date">27 Авг 2022</div>
+                            </div>
+                            <div class="blog_item">
+                                <div class="picture"><img src="../assets/images/blog/blog2.jpg" alt=""></div>
+                                <div class="title">Важность безопасности отеля</div>
+                                <div class="date">27 Авг 2022</div>
+                            </div>
+                            <div class="blog_item">
+                                <div class="picture"><img src="../assets/images/blog/blog3.jpg" alt=""></div>
+                                <div class="title">Основы технологий для путешественников</div>
+                                <div class="date">27 Авг 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog Details -->
+
+
+        <!-- Keywords Section -->
+        <section id="keywords">
+            <div class="container">
+                <div class="keywords_wrapper">
+                    <h2>Поиск по ключевым словам</h2>
+                    <div class="keywords_items">
+                        <div class="keywors_item"><a href="" class="active">Все</a></div>
+                        <div class="keywors_item"><a href="">Обзорные</a></div>
+                        <div class="keywors_item"><a href="">История и культура</a></div>
+                        <div class="keywors_item"><a href="">Необычные</a></div>
+                        <div class="keywors_item"><a href="">Для детей</a></div>
+                        <div class="keywors_item"><a href="">Вечерние</a></div>
+                        <div class="keywors_item"><a href="">Острова и море</a></div>
+                        <div class="keywors_item"><a href="">Пешие прогулки-экскурсии</a></div>
+                        <div class="keywors_item"><a href="">Мир животных</a></div>
+                        <div class="keywors_item"><a href="">Природа и заповедники</a></div>
+                        <div class="keywors_item"><a href="">Водные прогулки</a></div>
+                        <div class="keywors_item"><a href="">Активный отдых на природе</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Keywords Section -->
+
+
+        <div class="container">
+            <div class="horizontal_rule"></div>
+        </div>
+
+
+        <!-- Infinite Scroll -->
+        <div class="infinite_scroll">
+            <div class="container">
+                <div class="carouselTicker carouselTicker-left">
+                    <ul class="carouselTicker__list">
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/granitAS.svg" alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/tourAzerbaijan.svg"
+                                alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/naftalan.svg" alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/biletAz.svg" alt="infinia"></li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/granitAS.svg" alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/tourAzerbaijan.svg"
+                                alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/naftalan.svg" alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/biletAz.svg" alt="infinia"></li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/granitAS.svg" alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/tourAzerbaijan.svg"
+                                alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/naftalan.svg" alt="infinia">
+                        </li>
+                        <li class="carouselTicker__item"><img src="../assets/images/svg/biletAz.svg" alt="infinia"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Infinite Scroll -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row footer_wrapper">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6 links">
+                            <ul>
+                                <li><a href="../index.html">О компании</a></li>
+                                <li><a href="corporate_events.html">Сотрудничество</a></li>
+                                <li><a href="tour.html">Туры</a></li>
+                                <li><a href="excursion.html">Экскурсии</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 links">
+                            <ul>
+                                <li><a href="transfer.html">Трансферы</a></li>
+                                <li><a href="hotels.html">Отели</a></li>
+                                <li><a href="mice_services.html">MICE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6 social_links">
+                            <p>Следите за нами</p>
+                            <ul>
+                                <li><a href=""><img src="../assets/images/svg/facebook.svg" alt=""></a></li>
+                                <li><a href=""><img src="../assets/images/svg/instagram.svg" alt=""></a></li>
+                                <li><a href=""><img src="../assets/images/svg/twitter.svg" alt=""></a></li>
+                                <li><a href=""><img src="../assets/images/svg/vkontakte.svg" alt=""></a></li>
+                                <li><a href=""><img src="../assets/images/svg/youtube.svg" alt=""></a></li>
+                                <li><a href=""><img src="../assets/images/svg/tripadvisor.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 contact_us">
+                            <p>Нужна помощь?</p>
+                            <a href="https://wa.me/+994123456789" target="_blank">+994 50 210 24 16</a>
+                            <a href="mailto:incoming@granitas.az">incoming@granitas.az</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Back to Top Button -->
+    <div class="backToTopButton"><i class="fa-solid fa-angle-up"></i></div>
+    <!-- Back to Top Button -->
+
+
+    <!-- Sidebar -->
+    <div class="d-lg-none sidebar">
+        <div class="close_button"><img src="../assets/images/svg/cancel.svg" alt=""></div>
+        <div class="logo"><a href="../index.html"><img src="../assets/images/svg/Granit_Logo.svg" alt=""></a></div>
+        <nav class="sidebar_nav">
+            <ul>
+                <li><a href="../index.html">О нас</a></li>
+                <li><a href="tour.html">Туры</a></li>
+                <li><a href="excursion.html">Экскурсии</a></li>
+                <li><a href="transfer.html">Трансферы</a></li>
+                <li><a href="mice_services.html">MICE</a></li>
+                <li><a href="blog.html" class="active">Путеводитель</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar_settings">
+            <div class="language">
+                <div class="dropdown_button">
+                    <div class="svg"><img src="../assets/images/svg/language.svg" alt=""></div>
+                    <div class="text">Русский</div>
+                </div>
+                <div class="dropdown_item">
+                    <ul>
+                        <li><a href="">азербайджанский</a></li>
+                        <li><a href="">английский</a></li>
+                        <li><a href="" class="active">Русский</a></li>
+                        <li><a href="">турецкий</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search_bar_wrapper">
+                <form action="" class="search_bar">
+                    <input type="search" placeholder="Поиск" class="search_input">
+                    <div class="search_button">
+                        <i class="fa-solid fa-magnifying-glass search_loupe"></i>
+                        <i class="fa-solid fa-xmark search_remove"></i>
+                    </div>
+                </form>
+             </div>
+            <div class="sign_buttons">
+                <button class="login">Войти</button>
+                <button class="register registration">Регистрация</button>
+                <button class="register">Вход для агенств</button>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar -->
+
+
+    <!-- Login -->
+    <section class="login sign">
+        <div class="close_button"><i class="fa-solid fa-xmark"></i></div>
+        <form action="">
+            <h2>Войти в профиль</h2>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label for="email">Почта</label>
+                    <div class="input">
+                        <input type="email" id="email" placeholder="farida.askerova@gmail.com">
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="password">Пароль</label>
+                    <div class="input">
+                        <input type="password" id="password" placeholder="***********">
+                        <div class="blind_button"><i class="fa-regular fa-eye-slash"></i></div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">ВОЙТИ</button>
+            <a href="" class="forget_password">Забыли пароль?</a>
+            <span>или с помощью социальных сетей</span>
+            <div class="connection">
+                <div class="connection_item">
+                    <a href="">
+                        <div class="svg"><img src="../assets/images/svg/google.svg" alt=""></div>
+                        <div class="text">Войти через Google</div>
+                    </a>
+                </div>
+                <div class="connection_item facebook">
+                    <a href="">
+                        <div class="svg"><img src="../assets/images/svg/facebook2.svg" alt=""></div>
+                        <div class="text">Войти через Facebook</div>
+                    </a>
+                </div>
+            </div>
+            <div class="register">
+                <p>У вас нет аккаунта?</p>
+                <a href="javascript:void(0)">Регистрация</a>
+            </div>
+        </form>
+    </section>
+    <!-- Login -->
+
+
+    <!-- Register -->
+    <section class="login register">
+        <div class="close_button"><i class="fa-solid fa-xmark"></i></div>
+        <form action="">
+            <h2>Создать новый аккаунт</h2>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label for="name">Имя</label>
+                    <div class="input">
+                        <input type="text" id="name" placeholder="Фарида">
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="surname">Фамилия</label>
+                    <div class="input">
+                        <input type="text" id="surname" placeholder="Аскерова">
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="email_register">Почта</label>
+                    <div class="input">
+                        <input type="email" id="email_register" placeholder="farida.askerova@gmail.com">
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="password_register">Пароль</label>
+                    <div class="input">
+                        <input type="password" id="password_register" placeholder="***********">
+                        <div class="blind_button"><i class="fa-regular fa-eye-slash"></i></div>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="password_register2">Повторите пароль</label>
+                    <div class="input">
+                        <input type="password" id="password_register2" placeholder="***********">
+                        <div class="blind_button"><i class="fa-regular fa-eye-slash"></i></div>
+                    </div>
+                </div>
+                <div class="form_group checkbox">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">Я согласен <a href="">с политикой в отношении обработки персональных
+                            данных.</a></label>
+                </div>
+            </div>
+            <button type="submit">СОЗДАТЬ АККАУНТ</button>
+            <span>или с помощью социальных сетей</span>
+            <div class="connection">
+                <div class="connection_item">
+                    <a href="">
+                        <div class="svg"><img src="../assets/images/svg/google.svg" alt=""></div>
+                        <div class="text">Войти через Google</div>
+                    </a>
+                </div>
+                <div class="connection_item facebook">
+                    <a href="">
+                        <div class="svg"><img src="../assets/images/svg/facebook2.svg" alt=""></div>
+                        <div class="text">Войти через Facebook</div>
+                    </a>
+                </div>
+            </div>
+            <div class="register">
+                <p>У вас уже есть аккаунт?</p>
+                <a href="javascript:void(0)">Вход</a>
+            </div>
+        </form>
+    </section>
+    <!-- Register -->
+
+
+    <!-- jQeury JS -->
+    <script src="../assets/vendor/jqeury/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="../assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- MobiScroll JS -->
+    <script src="../assets/vendor/mobiscroll/mobiscroll.javascript.min.js"></script>
+    <!-- FancyBox JS -->
+    <script src="../assets/vendor/fancybox/fancybox.umd.js"></script>
+    <!-- CarouselTicker JS -->
+    <script src="../assets/vendor/carouselTicker/jquery.carouselTicker.min.js"></script>
+    <!-- Script JS -->
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
